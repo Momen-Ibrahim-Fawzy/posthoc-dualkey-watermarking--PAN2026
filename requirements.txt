@@ -1,0 +1,8 @@
+click
+pandas
+nltk
+tqdm
+# GPU-accelerated BERT synonym expansion (optional but recommended)
+torch
+transformers
+sentence-transformers

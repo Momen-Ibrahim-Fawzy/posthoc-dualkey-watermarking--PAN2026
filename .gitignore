@@ -1,0 +1,38 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Model weights (large, not for version control)
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Data files
+data/
+*.jsonl
+*.csv
+*.tsv
+analysis_results/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Build artefacts
+dist/
+build/
+*.egg-info/
+
+# Docker
+*.tar

@@ -1,0 +1,28 @@
+# ── PAN@CLEF 2026 Text Watermarking — CPU-only Dockerfile ─────────────────────
+# WordNet-only watermarking (no BERT-LS fallback).
+# Lighter image — suitable when GPU is unavailable.
+#
+# Build:  docker build -f Dockerfile.cpu -t pan26-watermark-cpu .
+# ──────────────────────────────────────────────────────────────────────────────
+
+FROM ubuntu:22.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+ENV LANG=C.UTF-8
+ENV LC_ALL=C.UTF-8
+ENV PYTHONIOENCODING=utf-8
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+        python3 \
+        python3-pip \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN pip3 install click pandas nltk tqdm
+
+ADD setup_nltk.py /
+RUN python3 /setup_nltk.py
+
+ADD config.py synonyms.py watermarker.py detector.py bert_synonyms.py main.py /
+
+RUN chmod +x /main.py
