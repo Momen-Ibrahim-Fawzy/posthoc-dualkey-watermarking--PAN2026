@@ -1,8 +1,8 @@
-# Post-Hoc Synonym Watermarking with Dual-Key Type-Level Detection
+# Team aimoment at PAN2026: Post-Hoc Synonym Watermarking with Dual-Key Type-Level Detection
 
 Official implementation of the system submitted to [PAN 2026 Text Watermarking](https://pan.webis.de/clef26/pan26-web/text-watermarking.html) task at CLEF 2026 — [`posthoc-dualkey-watermarking--PAN2026`](https://github.com/Momen-Ibrahim-Fawzy/posthoc-dualkey-watermarking--PAN2026).
 
-> **Paper:** *Post-Hoc Synonym Watermarking with Dual-Key Type-Level Detection: A Precision--Robustness Trade-off at PAN 2026*
+> **Paper:** *Team aimoment at PAN2026: Post-Hoc Synonym Watermarking with Dual-Key Type-Level Detection*
 > Momen Ibrahim — Alexandria University
 > CLEF 2026 Working Notes *(link will be added upon publication)*
 
