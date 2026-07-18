@@ -1,5 +1,7 @@
 # Team aimoment at PAN2026: Post-Hoc Synonym Watermarking with Dual-Key Type-Level Detection
 
+<img src="aimoment.png" alt="Team aimoment logo" width="200"/>
+
 Official implementation of the system submitted to [PAN 2026 Text Watermarking](https://pan.webis.de/clef26/pan26-web/text-watermarking.html) task at CLEF 2026 — [`posthoc-dualkey-watermarking--PAN2026`](https://github.com/Momen-Ibrahim-Fawzy/posthoc-dualkey-watermarking--PAN2026).
 
 > **Paper:** *Team aimoment at PAN2026: Post-Hoc Synonym Watermarking with Dual-Key Type-Level Detection*
@@ -149,9 +151,8 @@ Watermarks embedded with one key set are not detectable by a detector using diff
 
 ```bibtex
 @inproceedings{ibrahim:2026,
-  author    = {Momen Ibrahim},
-  title     = {Post-Hoc Synonym Watermarking with Dual-Key Type-Level Detection:
-               A Precision--Robustness Trade-off at PAN 2026},
+  author    = {Momen Ibrahim, Nagwa El-Makky and Marwan Torki},
+  title     = {Team aimoment at PAN2026: Post-Hoc Synonym Watermarking with Dual-Key Type-Level Detection},
   booktitle = {CLEF 2026 Working Notes},
   year      = {2026},
   publisher = {CEUR-WS.org},
