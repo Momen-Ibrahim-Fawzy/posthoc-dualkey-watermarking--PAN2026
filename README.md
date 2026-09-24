@@ -146,6 +146,15 @@ export WATERMARK_KEY_2="your-secret-key-2"
 ```
 
 Watermarks embedded with one key set are not detectable by a detector using different keys.
+---
+## 🎤 PAN 2026 Presentation
+
+**Presented at PAN 2026 — CLEF 2026**
+
+📅 September 23, 2026
+
+[📄 View Presentation (PDF)](presentation/PAN2026_PostHoc_Synonym_Watermarking.pdf)
+---
 
 ## Citation
 
